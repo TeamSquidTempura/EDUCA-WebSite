@@ -56,9 +56,15 @@ footer {
     /* padding: 2rem 1rem; */
     padding: 0.375rem 0;
     margin-top: 0;
+    color: #ffffff; 
 }
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 footer p {
-    color: white; 
     margin: 0;
     font-size: 0.8125rem;
     line-height: 1.3;
