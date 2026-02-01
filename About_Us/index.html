@@ -1,40 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link href="../style.css" rel="stylesheet">
-    <!-- favicon reg  -->
-    <link rel="icon" type="image/png" href="../assets/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="../assets/favicons/favicon.svg" />
-    <link rel="shortcut icon" href="../assets/favicons/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png" />
-    <link rel="manifest" href="../assets/favicons/site.webmanifest" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="../style.css" rel="stylesheet">
+  <!-- favicon reg  -->
+  <link rel="icon" type="image/png" href="../assets/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="../assets/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="../assets/favicons/site.webmanifest" />
 </head>
 <body>
   <nav class="menu">
-      <div class="nav-links">
-          <a href="../">Home</a>
-          <a href="./">About Us</a>
-          <a href="../Projects">Events</a>
-          <a href="../Donate" class="btn-donate">Donate</a>
-      </div>
+    <div class="nav-links">
+      <a href="../">Home</a>
+      <a href="./">About Us</a>
+      <a href="../Projects">Events</a>
+      <a href="../Donate" class="btn-donate">Donate</a>
+    </div>
   </nav>
-
-  <div class="about-us-content"> About Us </div>
-
-  <div> Meet The Team </div>
-  <div class="team-section-mexico">
-    <h1> Mexico </h1>
-    <p>
+  <h1 style="text-align:center">Meet The Team</h1>
+  <div class="team-section">
+    <div class="team-section-mexico">
+      <h2>Mexico</h2>
+      <p>
         Member #1
-    </p>
-    <p>
+      </p>
+      <p>
         Member #2
-    </p>
-    
+      </p>
+    </div>
+    <div class="team-section-brazil">
+      <h2>Brazil</h2>
+      <h3>Management Department</h3>
+      <p>
+        Seon K - Manager
+      </p>
+      <p>
+        Jayden L - Member
+      </p>
+      <h3>Tech Department</h3>
+      <p>
+        Kai T - Manager
+      </p>
+      <p>
+        Nico R - Member
+      </p>
+      <p>
+        Martin C - Assistant
+      </p>
+      <h3>Events Department</h3>
+      <p>
+        Martin C - Manager
+      </p>
+      <h3>Communication Department</h3>
+      <p>
+        Isabelle C - Manager
+      </p>
+    </div>
   </div>
 
+  <div class="contact">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or would like to get in touch with us, please reach out via email at <a href="mailto:support@educa.f5.si">support@educa.f5.si</a> or other emails in the list below.</p>
+    <p>General Support: <a href="mailto:support@educa.f5.si">support@educa.f5.si</a></p>
+    <p>Technical Support: <a href="mailto:tech@educa.f5.si">tech@educa.f5.si</a></p>
+
+    <p>Support in Mexico: <a href="mailto:support@mx.educa.f5.si">support@mx.educa.f5.si</a></p>
+    <p>Support in Brazil: <a href="mailto:support@br.educa.f5.si">support@br.educa.f5.si</a></p>
+  </div>
+
+  <footer>
+    <p>© <span id="copyright-year"></span> EDUCA NGO. All Rights Reserved. | <a href="./">Privacy Policy</a></p>
+  </footer>
+  <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
