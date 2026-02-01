@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - EDUCA NGO</title>
+  <link href="style.css" rel="stylesheet">
+  <!-- favicon reg  -->
+  <link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="assets/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicons/site.webmanifest" />
+</head>
+<body>
+  <nav class="menu">
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/About_Us">About Us</a>
+      <a href="/Projects">Events</a>
+      <a href="/Donate" class="btn-donate">Donate</a>
+    </div>
+  </nav>
+
+  <div class="error-container">
+    <div class="error-content">
+      <h1 class="error-code">404</h1>
+      <h2 class="error-title">Page Not Found</h2>
+      <p class="error-description">
+        We're sorry, but the page you're looking for doesn't exist or has been moved. 
+        This might have happened because the URL is incorrect or the page has been removed.
+      </p>
+      <p class="error-message">
+        Let's get you back on track. Return to the home page or explore our sections below.
+      </p>
+      <div class="error-actions">
+        <a href="/" class="btn-primary">Back to Home</a>
+        <a href="/About_Us" class="btn-secondary">About Us</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© <span id="copyright-year"></span> EDUCA NGO. All Rights Reserved. | <a href="/Privacy/">Privacy Policy</a></p>
+  </footer>
+  <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
