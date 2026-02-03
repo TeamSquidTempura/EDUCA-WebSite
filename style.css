@@ -12,6 +12,7 @@ html {
 
 h1 {
     color: var(--bg-dark);
+    text-align: center;
 }
 
 body {
@@ -447,4 +448,15 @@ footer p {
     .btn-secondary {
         width: 100%;
     }
+}
+
+.event {
+    background-color: #ffffff;
+    color: #2C3E50;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #667eea;
 }
