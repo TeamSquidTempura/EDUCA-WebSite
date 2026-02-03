@@ -460,3 +460,116 @@ footer p {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-left: 4px solid #667eea;
 }
+
+/* Privacy Policy Page Styles */
+.privacy-content {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+body > h2 {
+    background-color: #f8f9fa;
+    color: #2C3E50;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0 0 2rem 0;
+    border-bottom: 3px solid #667eea;
+    text-align: center;
+}
+
+body > p,
+body > ul,
+body > h3 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+    color: #2C3E50;
+    line-height: 1.8;
+}
+
+body > p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    color: #555;
+}
+
+body > p a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+body > p a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+body > h3 {
+    font-size: 1.3rem;
+    color: #2C3E50;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+}
+
+body > h3 span {
+    color: #2C3E50;
+}
+
+body > ul {
+    margin-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    list-style-type: disc;
+}
+
+body > ul li {
+    margin-bottom: 0.75rem;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+body > ul li span {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    body > h2 {
+        font-size: 1.5rem;
+        padding: 1.5rem 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    body > p,
+    body > ul,
+    body > h3 {
+        padding: 0 1rem;
+    }
+
+    body > h3 {
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    body > p {
+        font-size: 0.95rem;
+        text-align: left;
+    }
+
+    body > ul {
+        padding-left: 2rem;
+    }
+
+    body > ul li {
+        font-size: 0.95rem;
+    }
+}
+
