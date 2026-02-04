@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+        "id": 1,
+        "name": "Example Event 1",
+        "date": "2024-09-15",
+        "time": "18:00",
+        "location": "Monterrey, MX",
+        "description": "Description of Example Event 1, including details about the event, speakers, and activities.",
+        "target": "School A",
+        "result": "N/A",
+        "photo": "../assets/events/event1.jpeg"
+        },
+        {
+        "id": 2,
+        "name": "Example Event 2",
+        "date": "2024-07-22",
+        "time": "12:00",
+        "location": "São Paulo, BR",
+        "description": "Description of Example Event 2, including details about the event, speakers, and activities.",
+        "target": "School B",
+        "result": "N/A"
+        },
+        {
+        "id": 3,
+        "name": "Example Event 3",
+        "date": "2024-11-05",
+        "time": "09:00",
+        "location": "São Paulo, BR",
+        "description": "Description of Example Event 3, including details about the event, speakers, and activities.",
+        "target": "School C",
+        "result": "N/A"
+        }
+    ]
+}

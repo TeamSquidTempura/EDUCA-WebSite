@@ -12,7 +12,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png" />
   <link rel="manifest" href="../assets/favicons/site.webmanifest" />
 </head>
+
 <body>
+
   <nav class="menu">
     <div class="nav-links">
       <a href="../">Home</a>
@@ -24,27 +26,20 @@
 
   <h1>Events</h1>
 
-  <div class="event">
-    <h2>Event Template</h2>
-    <p>Date: YYYY-MM-DD</p>
-    <p>Description: This is a template for upcoming events. Details will be updated soon.</p>
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="mexico">Mexico</button>
+    <button class="filter-btn" data-filter="brazil">Brazil</button>
   </div>
 
-  <div class="event">
-    <h2>Event Template</h2>
-    <p>Date: YYYY-MM-DD</p>
-    <p>Description: This is a template for upcoming events. Details will be updated soon.</p>
-  </div>
-
-  <div class="event">
-    <h2>Event Template</h2>
-    <p>Date: YYYY-MM-DD</p>
-    <p>Description: This is a template for upcoming events. Details will be updated soon.</p>
+  <div id="events-container" class="events-container">
+    <!-- Events will be dynamically loaded here -->
   </div>
 
   <footer>
     <p>© <span id="copyright-year"></span> EDUCA NGO. All Rights Reserved. | <a href="../Privacy/">Privacy Policy</a></p>
   </footer>
+  <script src="./events.js"></script>
   <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
