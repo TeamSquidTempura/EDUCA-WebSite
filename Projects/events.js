@@ -18,6 +18,7 @@ function renderEvents(events) {
     events.forEach(event => {
     const eventDiv = document.createElement('div');
     eventDiv.className = 'event';
+    const result = event.target == "N/A" && event.result == "N/A" ? "": `<p><strong>Destination:</strong> ${event.target}</p> <p><strong>Result:</strong> ${event.result}</p>`;
     eventDiv.innerHTML = `
         <h2>${event.name}</h2>
         <p><strong>Date:</strong> ${event.date}</p>
@@ -26,8 +27,7 @@ function renderEvents(events) {
         <p><strong>Description:</strong> ${event.description}</p>
         <div class="event-details" id="details-${event.id}" style="display: none;">
             ${event.photo ? `<img src="${event.photo}" alt="${event.name}" class="event-photo">` : ''}
-            <p><strong>Destination:</strong> ${event.target}</p>
-            <p><strong>Result:</strong> ${event.result}</p>
+            ${result}
         </div>
         <button class="btn-see-more" data-event-id="${event.id}">See More</button>
     `;
