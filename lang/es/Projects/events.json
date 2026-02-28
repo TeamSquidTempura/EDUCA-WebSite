@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+        "id": 1,
+        "name": "San Pedro de Pinta Outreach",
+        "date": "2026-02-22",
+        "time": "18:00",
+        "location": "Monterrey, MX",
+        "description": "3 horas de compromiso para difundir EDUCA a través de actividades divertidas y atractivas.",
+        "target": "N/A",
+        "result": "N/A",
+        "photo": "../assets/events/SPdPO.jpeg"
+        },
+        {
+        "id": 2,
+        "name": "Venta de pasteles",
+        "date": "2026-XX-XX",
+        "time": "15:30-18:00",
+        "location": "São Paulo, BR",
+        "description": "Venta de pasteles para recaudar fondos para las iniciativas de EDUCA. ¡Únete a nosotros para disfrutar de deliciosos postres y apoyar nuestra causa!",
+        "target": "N/A",
+        "result": "N/A"
+        }
+    ]
+}

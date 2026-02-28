@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+        "id": 1,
+        "name": "Ação Social de São Pedro de Pinta",
+        "date": "2026-02-22",
+        "time": "18:00",
+        "location": "Monterrey, MX",
+        "description": "3 horas de dedicação para divulgar a EDUCA por meio de atividades divertidas e envolventes.",
+        "target": "N/A",
+        "result": "N/A",
+        "photo": "../assets/events/SPdPO.jpeg"
+        },
+        {
+        "id": 2,
+        "name": "Venda de bolos",
+        "date": "2026-XX-XX",
+        "time": "15:30-18:00",
+        "location": "São Paulo, BR",
+        "description": "Venda de bolos para arrecadar fundos para as iniciativas da EDUCA. Junte-se a nós para saborear delícias e apoiar nossa causa!",
+        "target": "N/A",
+        "result": "N/A"
+        }
+    ]
+}
