@@ -19,7 +19,8 @@
         "location": "São Paulo, BR",
         "description": "Venda de bolos para arrecadar fundos para as iniciativas da EDUCA. Junte-se a nós para saborear delícias e apoiar nossa causa!",
         "target": "N/A",
-        "result": "N/A"
+        "result": "N/A",
+        "photo": "../assets/events/event2.jpeg"
         }
     ]
 }

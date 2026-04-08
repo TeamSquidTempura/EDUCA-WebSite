@@ -19,7 +19,8 @@
         "location": "São Paulo, BR",
         "description": "Bake sale to raise funds for EDUCA's initiatives. Join us for delicious treats and support our cause!",
         "target": "N/A",
-        "result": "N/A"
+        "result": "N/A",
+        "photo": "../assets/events/event2.jpeg"
         }
     ]
 }

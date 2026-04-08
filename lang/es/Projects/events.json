@@ -19,7 +19,8 @@
         "location": "São Paulo, BR",
         "description": "Venta de pasteles para recaudar fondos para las iniciativas de EDUCA. ¡Únete a nosotros para disfrutar de deliciosos postres y apoyar nuestra causa!",
         "target": "N/A",
-        "result": "N/A"
+        "result": "N/A",
+        "photo": "../assets/events/event2.jpeg"
         }
     ]
 }
